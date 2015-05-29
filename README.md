@@ -7,7 +7,19 @@ check project/Build Automatically, uncheck windows > preferences > Java > Compil
 ##### can not open java source in windowsbuilder
 right click file > open with, select proper editor.
 
+##maven
 
+#### how to set project local repository
+in pom file, add:
+```xml
+<repositories>
+ 	<repository>
+        <id>project.local</id>
+        <name>project</name>
+        <url>file:${project.basedir}/repo</url>
+    </repository>
+</repositories>
+```
 
 
 
