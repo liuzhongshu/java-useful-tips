@@ -1,15 +1,17 @@
 # java-useful-tips
 
-## eclipse
+## Java language
+
+## Eclipse
 ##### hot swap not working
 check project/Build Automatically, uncheck windows > preferences > Java > Compiler > Building > Abort build when build path errors occur.
 
 ##### can not open java source in windowsbuilder
 right click file > open with, select proper editor.
 
-##maven
+## Maven
 
-#### how to set project local repository
+##### how to set project local repository
 in pom file, add:
 ```xml
 <repositories>
