@@ -9,6 +9,9 @@ check project/Build Automatically, uncheck windows > preferences > Java > Compil
 ##### can not open java source in windowsbuilder
 right click file > open with, select proper editor.
 
+##### compile error for old API like BASE64Decoder 
+windows > preferences > Java > Compiler > Deprecated and restricted API, set Forbidden reference to  Warning.
+
 ## Maven
 
 ##### how to set project local repository
