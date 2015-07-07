@@ -26,6 +26,10 @@ in pom file, add:
 </repositories>
 ```
 
+## Swing
+
+##### how to add undo and redo to JTextArea?
+http://www.java-tips.org/java-se-tips-100019/44-javax-swing-undo/1964-how-to-add-undo-and-redo-to-a-text-component.html
 
 
 
