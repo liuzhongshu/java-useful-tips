@@ -17,7 +17,7 @@ windows > preferences > Java > Compiler > Deprecated and restricted API, set For
 
 ## Maven
 
-##### how to set project local repository
+##### set project local repository
 in pom file, add:
 ```xml
 <repositories>
@@ -27,6 +27,28 @@ in pom file, add:
         <url>file:${project.basedir}/repo</url>
     </repository>
 </repositories>
+```
+##### Dependency convergence check
+in pom file, add: 
+```xml
+<plugin>
+			    <groupId>org.apache.maven.plugins</groupId>
+			    <artifactId>maven-enforcer-plugin</artifactId>
+			    <version>1.4.1</version>
+			    <executions>
+			      <execution>
+			        <id>enforce</id>
+			        <configuration>
+			          <rules>
+			            <DependencyConvergence />
+			          </rules>
+			        </configuration>
+			        <goals>
+			          <goal>enforce</goal>
+			        </goals>
+			      </execution>
+			    </executions>
+			</plugin>
 ```
 
 ## Swing
