@@ -35,23 +35,23 @@ in pom file, add:
 in pom file, add: 
 ```xml
 <plugin>
-			    <groupId>org.apache.maven.plugins</groupId>
-			    <artifactId>maven-enforcer-plugin</artifactId>
-			    <version>1.4.1</version>
-			    <executions>
-			      <execution>
-			        <id>enforce</id>
-			        <configuration>
-			          <rules>
-			            <DependencyConvergence />
-			          </rules>
-			        </configuration>
-			        <goals>
-			          <goal>enforce</goal>
-			        </goals>
-			      </execution>
-			    </executions>
-			</plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-enforcer-plugin</artifactId>
+    <version>1.4.1</version>
+    <executions>
+      <execution>
+        <id>enforce</id>
+        <configuration>
+          <rules>
+            <DependencyConvergence />
+          </rules>
+        </configuration>
+        <goals>
+          <goal>enforce</goal>
+        </goals>
+      </execution>
+    </executions>
+</plugin>
 ```
 
 ## Swing
