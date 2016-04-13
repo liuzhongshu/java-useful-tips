@@ -15,6 +15,9 @@ right click file > open with, select proper editor.
 ##### compile error for old API like BASE64Decoder 
 windows > preferences > Java > Compiler > Deprecated and restricted API, set Forbidden reference to  Warning.
 
+##### paste multi line text to java string
+Preferences > Java > Editor > Typing, check "Escape text when pasting into a string literal"
+
 ## Maven
 
 ##### set project local repository
