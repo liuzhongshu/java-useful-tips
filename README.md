@@ -3,8 +3,8 @@
 ## Java language
 
 ## Eclipse
-##### hot swap not working
-check project/Build Automatically, uncheck windows > preferences > Java > Compiler > Building > Abort build when build path errors occur.
+##### auto refresh resources
+from Eclipse 3.7, check windows > preferences > general > workspace > Refresh using native hooks or polling
 
 ##### better hot swap
 try jrebel (install using eclipse marketplace)
