@@ -1,6 +1,10 @@
 # java-useful-tips
 
 ## Java language
+##### JRE remote debug
+add -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=8074 to JRE options, suspend=y for suspend, 8074 is debug port.
+
+
 
 ## Eclipse
 ##### auto refresh resources
@@ -58,6 +62,11 @@ in pom file, add:
 
 ##### how to add undo and redo to JTextArea?
 http://www.java-tips.org/java-se-tips-100019/44-javax-swing-undo/1964-how-to-add-undo-and-redo-to-a-text-component.html
+
+
+## linux
+##### JVM Delays Caused by Random Number Generation
+add -Djava.security.egd=file:/dev/./urandom to JRE options
 
 ## Don't Reinvent The Wheel
 * [joor](https://github.com/jOOQ/jOOR) better reflection
