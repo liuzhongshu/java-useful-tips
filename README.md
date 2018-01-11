@@ -4,7 +4,8 @@
 ##### JRE remote debug
 add -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=8074 to JRE options, suspend=y for suspend, 8074 is debug port.
 
-
+##### external thread dump
+kill -3 pid (linux)  or send ctrl-break from keyboard to console (windows)
 
 ## Eclipse
 ##### auto refresh resources
